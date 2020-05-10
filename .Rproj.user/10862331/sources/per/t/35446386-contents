@@ -1,0 +1,38 @@
+## Read in the features list and create an index of the mean and std features 
+
+features <- read.table("./UCI HAR Dataset/features.txt", col.names = c("Row", "Variable"))
+
+featuresSplit <- strsplit(features$Variable, "-")
+
+index <- sapply()
+
+## Read in the training and test datasets
+
+read.table("./UCI HAR Dataset/test/X_test.txt", sep = " ")[1, 1]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Outputs the two generated dataframes to .csv files in the /Output folder
+if(!file.exists("/Output")) {
+  dir.create("data")
+}
+
