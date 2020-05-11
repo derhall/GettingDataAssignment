@@ -27,21 +27,21 @@ Data originally obtained from:
 
 - "/run_analysis.R": R script that performs the following functions on the "UCI HAR Dataset" (as specificied in course assignment instructions):
 	
-	1. Merges the train and test datasets.
-    	2. Extracts only the features containing mean() and std() results for each measurement.
-    	**3. Uses descriptive activity names to name the activities in the data set
-    	**4. Appropriately labels the data set with descriptive variable names.
-    	**5. From the data set in step 4, creates a second, independent tidy dataset with the average of each variable for each activity and each subject.
+	1. Merges the train and test datasets. 
+    	2. Extracts only the features containing mean() and std() results for each measurement. 
+    	3. Uses descriptive activity names to name the activities in the data set. 
+    	4. Appropriately labels the data set with descriptive variable names. 
+    	5. From the data set in step 4, creates a second, independent tidy dataset with the average of each variable for each activity and each subject. 
 
-- "/Output": Contains the output files from the "run_analysis.R" script. 
+- "/analysis_files": Contains export files from the "run_analysis.R" script.
 
-	- "/UCI_HAR_merged_data.csv": Output file from steps 1-4 of the "run_analysis.R" script. 
+	- "/UCI_HAR_merged_data.txt": Output file from steps 1-4 of "run_analysis.R". 
 
-	- "/UCI_HAR_merged_data_tidy.csv": Output file from step 5 of the "run_analysis.R" script. 
+	- "/UCI_HAR_merged_summary_data.txt": Output file from step 5 of "run_analysis.R". 
 
 ## Analysis Notes:
 
-- "run_analysis.R" can be sourced as a function in R to generated tidy datasets from the UCI HAR dataset. See CODEBOOK.md for details. 
+- "run_analysis.R" can be sourced as a function to R to generated tidy datasets from the UCI HAR dataset. See CODEBOOK.md for details. 
 
 - The "run_analysis.R" was run on R version 4.0.0 (2020-04-24) with the following packages: 
 	
