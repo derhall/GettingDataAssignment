@@ -2,9 +2,7 @@
 
 Coursera Getting and Cleaning Data Course Assignment
 
-====================================================
-
-Description:
+## Description:
 
 Course project carried out for Getting and Cleaning Data offered by John Hopkins University through Coursera. 
 
@@ -12,9 +10,7 @@ Data originally obtained from:
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
-==================
-
-Repo content:
+## Repo content:
 
 - "README.md": This file. 
 
@@ -43,18 +39,15 @@ Repo content:
 
 	- "/UCI_HAR_merged_data_tidy.csv": Output file from step 5 of the "run_analysis.R" script. 
 
-==================
+## Analysis Notes:
 
-Analysis Notes:
+- "run_analysis.R" can be sourced as a function in R to generated tidy datasets from the UCI HAR dataset. See CODEBOOK.md for details. 
 
-- The "run_analysis.R" script was run on R version 4.0.0 (2020-04-24) with the following packages: 
-
+- The "run_analysis.R" was run on R version 4.0.0 (2020-04-24) with the following packages: 
+	
 	- dplyr
-	- 
+
 - "run_analysis.R" and the "UCI HAR Dataset" must be in the working directory for the script to run properly. 
 
-- Per instructions, only mean() and std() features were extracted from the original datasets. meanFreq() and gravityMean() functions were not considered to be part of the instructed subset. 
-
-================
-
+- Per instructions, only mean() and std() features were extracted from the original datasets. meanFreq() and gravityMean() functions were not considered to be part of the instructed subset.
 
