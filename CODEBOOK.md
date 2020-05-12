@@ -19,14 +19,16 @@ The output data contains three descriptor features:
 The remaining features are numerical variables containing the mean values of the subsetted features for each subject and each activity performed. 
 Features were subsetted from the original dataset if they contained mean() or std() estimations. Averaging features from the angle() estimations were not included. 
 
+For details on a particular feature, refer to UCI HAR Dataset subsection below.
+
 Feature names were adjusted to descriptive names as follows: 
 
 - names were adjusted to lower case
 - "t" was expanded to "time_"
 - "f" was expanded to "freq_" 
-- "acc" was expanded to "_accelerometer_"
-- "gyro" was expanded to "_gyroscope_"
-- "mag" was expanded to "_magnitude_"
+- "acc" was expanded to "accelerometer"
+- "gyro" was expanded to "gyroscope"
+- "mag" was expanded to "magnitude"
 - "()" and "-" values were removed 
 - "Body" duplicates in variable names were removed
 
