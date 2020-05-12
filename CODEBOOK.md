@@ -11,9 +11,10 @@ See README.md for usage information.
 ### Output Dataset Features Info
 
 The output data contains three descriptor features: 
-	- subject_id: integer variable indicating the subject id from the original dataset. 
-	- activity: descriptive variable for the activity performed. 
-	- dataset: descriptive variable indicating the dataset the subject was assigned to in the UCI HAR Dataset. 
+	
+- subject_id: integer variable indicating the subject id from the original dataset. 
+- activity: descriptive variable for the activity performed. 
+- dataset: descriptive variable indicating the dataset the subject was assigned to in the UCI HAR Dataset. 
 
 The remaining features are numerical variables containing the mean values of the subsetted features for each subject and each activity performed. 
 Features were subsetted from the original dataset if they contained mean() or std() estimations. Averaging features from the angle() estimations were not included. 
@@ -29,86 +30,91 @@ Feature names were adjusted to descriptive names as follows:
 - "()" and "-" values were removed 
 - "Body" duplicates in variable names were removed
 
+Abbreviations:
+
+freq - Frequency 
+std - Standard Deviation
+
 Units: Features are normalized and bounded within [-1,1].
 
 ### Features list
 
-1 "subject_id"
-2 "activity"
-3 "dataset"
-4 "time_body_accelerometer__mean_x"
-5 "time_body_accelerometer__mean_y"
-6 "time_body_accelerometer__mean_z"
-7 "time_body_accelerometer__std_x"
-8 "time_body_accelerometer__std_y"
-9 "time_body_accelerometer__std_z"
-10 "time_gravity_accelerometer__mean_x"
-11 "time_gravity_accelerometer__mean_y"
-12 "time_gravity_accelerometer__mean_z"
-13 "time_gravity_accelerometer__std_x"
-14 "time_gravity_accelerometer__std_y"
-15 "time_gravity_accelerometer__std_z"
-16 "time_body_accelerometer_jerk_mean_x"
-17 "time_body_accelerometer_jerk_mean_y"
-18 "time_body_accelerometer_jerk_mean_z"
-19 "time_body_accelerometer_jerk_std_x"
-20 "time_body_accelerometer_jerk_std_y"
-21 "time_body_accelerometer_jerk_std_z"
-22 "time_body_gyroscope__mean_x"
-23 "time_body_gyroscope__mean_y"
-24 "time_body_gyroscope__mean_z"
-25 "time_body_gyroscope__std_x"
-26 "time_body_gyroscope__std_y"
-27 "time_body_gyroscope__std_z"
-28 "time_body_gyroscope_jerk_mean_x"
-29 "time_body_gyroscope_jerk_mean_y"
-30 "time_body_gyroscope_jerk_mean_z"
-31 "time_body_gyroscope_jerk_std_x"
-32 "time_body_gyroscope_jerk_std_y"
-33 "time_body_gyroscope_jerk_std_z"
-34 "time_body_accelerometer__magnitude_mean"
-35 "time_body_accelerometer__magnitude_std"
-36 "time_gravity_accelerometer__magnitude_mean"
-37 "time_gravity_accelerometer__magnitude_std"
-38 "time_body_accelerometer_jerk_magnitude_mean"
-39 "time_body_accelerometer_jerk_magnitude_std"
-40 "time_body_gyroscope__magnitude_mean"
-41 "time_body_gyroscope__magnitude_std"
-42 "time_body_gyroscope_jerk_magnitude_mean"
-43 "time_body_gyroscope_jerk_magnitude_std"
-44 "freq_body_accelerometer__mean_x"
-45 "freq_body_accelerometer__mean_y"
-46 "freq_body_accelerometer__mean_z"
-47 "freq_body_accelerometer__std_x"
-48 "freq_body_accelerometer__std_y"
-49 "freq_body_accelerometer__std_z"
-50 "freq_body_accelerometer_jerk_mean_x"
-51 "freq_body_accelerometer_jerk_mean_y"
-52 "freq_body_accelerometer_jerk_mean_z"
-53 "freq_body_accelerometer_jerk_std_x"
-54 "freq_body_accelerometer_jerk_std_y"
-55 "freq_body_accelerometer_jerk_std_z"
-56 "freq_body_gyroscope__mean_x"
-57 "freq_body_gyroscope__mean_y"
-58 "freq_body_gyroscope__mean_z"
-59 "freq_body_gyroscope__std_x"
-60 "freq_body_gyroscope__std_y"
-61 "freq_body_gyroscope__std_z"
-62 "freq_body_accelerometer__magnitude_mean"
-63 "freq_body_accelerometer__magnitude_std"
-64 "freq_body_accelerometer_jerk_magnitude_mean"
-65 "freq_body_accelerometer_jerk_magnitude_std"
-66 "freq_body_gyroscope__magnitude_mean"
-67 "freq_body_gyroscope__magnitude_std"
-68 "freq_body_gyroscope_jerk_magnitude_mean"
-69 "freq_body_gyroscope_jerk_magnitude_std"
+1 "subject_id" 
+2 "activity" 
+3 "dataset" 
+4 "time_body_accelerometer__mean_x" 
+5 "time_body_accelerometer__mean_y" 
+6 "time_body_accelerometer__mean_z" 
+7 "time_body_accelerometer__std_x" 
+8 "time_body_accelerometer__std_y" 
+9 "time_body_accelerometer__std_z" 
+10 "time_gravity_accelerometer__mean_x" 
+11 "time_gravity_accelerometer__mean_y" 
+12 "time_gravity_accelerometer__mean_z" 
+13 "time_gravity_accelerometer__std_x" 
+14 "time_gravity_accelerometer__std_y" 
+15 "time_gravity_accelerometer__std_z" 
+16 "time_body_accelerometer_jerk_mean_x" 
+17 "time_body_accelerometer_jerk_mean_y" 
+18 "time_body_accelerometer_jerk_mean_z" 
+19 "time_body_accelerometer_jerk_std_x" 
+20 "time_body_accelerometer_jerk_std_y" 
+21 "time_body_accelerometer_jerk_std_z" 
+22 "time_body_gyroscope__mean_x" 
+23 "time_body_gyroscope__mean_y" 
+24 "time_body_gyroscope__mean_z" 
+25 "time_body_gyroscope__std_x" 
+26 "time_body_gyroscope__std_y" 
+27 "time_body_gyroscope__std_z" 
+28 "time_body_gyroscope_jerk_mean_x" 
+29 "time_body_gyroscope_jerk_mean_y" 
+30 "time_body_gyroscope_jerk_mean_z" 
+31 "time_body_gyroscope_jerk_std_x" 
+32 "time_body_gyroscope_jerk_std_y" 
+33 "time_body_gyroscope_jerk_std_z" 
+34 "time_body_accelerometer__magnitude_mean" 
+35 "time_body_accelerometer__magnitude_std" 
+36 "time_gravity_accelerometer__magnitude_mean" 
+37 "time_gravity_accelerometer__magnitude_std" 
+38 "time_body_accelerometer_jerk_magnitude_mean" 
+39 "time_body_accelerometer_jerk_magnitude_std" 
+40 "time_body_gyroscope__magnitude_mean" 
+41 "time_body_gyroscope__magnitude_std" 
+42 "time_body_gyroscope_jerk_magnitude_mean" 
+43 "time_body_gyroscope_jerk_magnitude_std" 
+44 "freq_body_accelerometer__mean_x" 
+45 "freq_body_accelerometer__mean_y" 
+46 "freq_body_accelerometer__mean_z" 
+47 "freq_body_accelerometer__std_x" 
+48 "freq_body_accelerometer__std_y" 
+49 "freq_body_accelerometer__std_z" 
+50 "freq_body_accelerometer_jerk_mean_x" 
+51 "freq_body_accelerometer_jerk_mean_y" 
+52 "freq_body_accelerometer_jerk_mean_z" 
+53 "freq_body_accelerometer_jerk_std_x" 
+54 "freq_body_accelerometer_jerk_std_y" 
+55 "freq_body_accelerometer_jerk_std_z" 
+56 "freq_body_gyroscope__mean_x" 
+57 "freq_body_gyroscope__mean_y" 
+58 "freq_body_gyroscope__mean_z" 
+59 "freq_body_gyroscope__std_x" 
+60 "freq_body_gyroscope__std_y" 
+61 "freq_body_gyroscope__std_z" 
+62 "freq_body_accelerometer__magnitude_mean" 
+63 "freq_body_accelerometer__magnitude_std" 
+64 "freq_body_accelerometer_jerk_magnitude_mean" 
+65 "freq_body_accelerometer_jerk_magnitude_std" 
+66 "freq_body_gyroscope__magnitude_mean" 
+67 "freq_body_gyroscope__magnitude_std" 
+68 "freq_body_gyroscope_jerk_magnitude_mean" 
+69 "freq_body_gyroscope_jerk_magnitude_std" 
 
 
 
 
 ## UCI HAR Dataset
 
-*information extracted and summarized from original README.txt and information files.* 
+*Information extracted and summarized from original README.txt and information files.* 
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
