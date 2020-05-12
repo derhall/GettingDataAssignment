@@ -1,11 +1,19 @@
-run_analysis <- function(return = "summary", export = TRUE) {
-    if (!require(dplyr)) {
+run_analysis <- function(output = "object") {
+    
+    output <- output
+    
+    if(!require(dplyr)) {
+        
         stop("dplyr not installed")
+    
+    }
+    
+    if(!output %in% c("object", "export")){ 
+       
+        stop("Value not valid. Options: 'object' or 'export'")
         
-    } else if (!return %in% c("summary", "data", "none")) {
-        stop("return must be defined as 'summary', 'data', or 'none'")
-        
-    } else {
+    }
+    
         ## Read in the features list and
         ## create an index of the mean and std features
         
@@ -111,38 +119,23 @@ run_analysis <- function(return = "summary", export = TRUE) {
         
         ## Creation of the summary_merge dataset
 
-        summary_merge_data <- merge_data %>% 
+        meansummary_merge_data <- merge_data %>% 
             group_by(subject_id, activity, dataset) %>% 
             summarize_all(mean)
         
-        ## Exports the two generated dataframes to files if export = TRUE
+        ## Exports the generated dataset to an R object or .txt file, 
+        ## dependent on output parameter 
         
-        if (export == TRUE) {
-            if (!file.exists("./analysis_files")) {
-                dir.create("./analysis_files")
-            }
+        if(output == "object") {
             
-            write.table(merge_data,
-                        file = "./analysis_files/UCI_HAR_merge_data.txt")
+            assign("meansummary_merge_data", meansummary_merge_data, envir = .GlobalEnv)
             
-            write.table(summary_merge_data,
-                        file = "./analysis_files/UCI_HAR_meansummary_merge_data.txt")
-        }
-        
-        ## Return based on output function.
-        ##"summary" returns the summary merged dataset
-        ## "data" returns the merged dataset
-        ## "none" returns no value but still runs the script
-        
-        if (return == "summary") {
-            summary_merge_data
+        } else if (output == "export") {
             
-        } else if (return == "data") {
-            merge_data
-            
-        } else if (return == "none" & export == TRUE) {
-            message("export complete")
-        
+            write.table(meansummary_merge_data,
+                        file = "UCI_HAR_meansummary_merge_data.txt",
+                        row.names = FALSE)
         }
     }
-}
+
+
