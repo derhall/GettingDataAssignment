@@ -27,11 +27,11 @@ Data originally obtained from:
 
 - "/run_analysis.R": R script for a function that performs the following actions on the "UCI HAR Dataset" (as specificied in project assignment instructions):
 	
-	1. Merges the train and test datasets. 
-	2. Extracts only the features containing mean() and std() results for each measurement. 
-	3. Uses descriptive activity names to name the activities in the data set. 
-	4. Appropriately labels the merged dataset with descriptive variable names. 
-	5. From the dataset in step 4, creates a second, independent tidy dataset with the average of each variable for each activity and each subject. 
+1. Merges the train and test datasets. 
+2. Extracts only the features containing mean() and std() results for each measurement. 
+3. Uses descriptive activity names to name the activities in the data set. 
+4. Appropriately labels the merged dataset with descriptive variable names. 
+5. From the dataset in step 4, creates a second, independent tidy dataset with the average of each variable for each activity and each subject. 
 	
 	See Analysis Notes below for more details and usage. 
 
