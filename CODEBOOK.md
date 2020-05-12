@@ -42,72 +42,72 @@ Units: Features are normalized and bounded within [-1,1].
 1 "subject_id"  
 2 "activity"  
 3 "dataset"  
-4 "time_body_accelerometer__mean_x" 
-5 "time_body_accelerometer__mean_y" 
-6 "time_body_accelerometer__mean_z" 
-7 "time_body_accelerometer__std_x" 
-8 "time_body_accelerometer__std_y" 
-9 "time_body_accelerometer__std_z" 
-10 "time_gravity_accelerometer__mean_x" 
-11 "time_gravity_accelerometer__mean_y" 
-12 "time_gravity_accelerometer__mean_z" 
-13 "time_gravity_accelerometer__std_x" 
-14 "time_gravity_accelerometer__std_y" 
-15 "time_gravity_accelerometer__std_z" 
-16 "time_body_accelerometer_jerk_mean_x" 
-17 "time_body_accelerometer_jerk_mean_y" 
-18 "time_body_accelerometer_jerk_mean_z" 
-19 "time_body_accelerometer_jerk_std_x" 
-20 "time_body_accelerometer_jerk_std_y" 
-21 "time_body_accelerometer_jerk_std_z" 
-22 "time_body_gyroscope__mean_x" 
-23 "time_body_gyroscope__mean_y" 
-24 "time_body_gyroscope__mean_z" 
-25 "time_body_gyroscope__std_x" 
-26 "time_body_gyroscope__std_y" 
-27 "time_body_gyroscope__std_z" 
-28 "time_body_gyroscope_jerk_mean_x" 
-29 "time_body_gyroscope_jerk_mean_y" 
-30 "time_body_gyroscope_jerk_mean_z" 
-31 "time_body_gyroscope_jerk_std_x" 
-32 "time_body_gyroscope_jerk_std_y" 
-33 "time_body_gyroscope_jerk_std_z" 
-34 "time_body_accelerometer__magnitude_mean" 
-35 "time_body_accelerometer__magnitude_std" 
-36 "time_gravity_accelerometer__magnitude_mean" 
-37 "time_gravity_accelerometer__magnitude_std" 
-38 "time_body_accelerometer_jerk_magnitude_mean" 
-39 "time_body_accelerometer_jerk_magnitude_std" 
-40 "time_body_gyroscope__magnitude_mean" 
-41 "time_body_gyroscope__magnitude_std" 
-42 "time_body_gyroscope_jerk_magnitude_mean" 
-43 "time_body_gyroscope_jerk_magnitude_std" 
-44 "freq_body_accelerometer__mean_x" 
-45 "freq_body_accelerometer__mean_y" 
-46 "freq_body_accelerometer__mean_z" 
-47 "freq_body_accelerometer__std_x" 
-48 "freq_body_accelerometer__std_y" 
-49 "freq_body_accelerometer__std_z" 
-50 "freq_body_accelerometer_jerk_mean_x" 
-51 "freq_body_accelerometer_jerk_mean_y" 
-52 "freq_body_accelerometer_jerk_mean_z" 
-53 "freq_body_accelerometer_jerk_std_x" 
-54 "freq_body_accelerometer_jerk_std_y" 
-55 "freq_body_accelerometer_jerk_std_z" 
-56 "freq_body_gyroscope__mean_x" 
-57 "freq_body_gyroscope__mean_y" 
-58 "freq_body_gyroscope__mean_z" 
-59 "freq_body_gyroscope__std_x" 
-60 "freq_body_gyroscope__std_y" 
-61 "freq_body_gyroscope__std_z" 
-62 "freq_body_accelerometer__magnitude_mean" 
-63 "freq_body_accelerometer__magnitude_std" 
-64 "freq_body_accelerometer_jerk_magnitude_mean" 
-65 "freq_body_accelerometer_jerk_magnitude_std" 
-66 "freq_body_gyroscope__magnitude_mean" 
-67 "freq_body_gyroscope__magnitude_std" 
-68 "freq_body_gyroscope_jerk_magnitude_mean" 
-69 "freq_body_gyroscope_jerk_magnitude_std" 
+4 "time_body_accelerometer__mean_x"  
+5 "time_body_accelerometer__mean_y"  
+6 "time_body_accelerometer__mean_z"  
+7 "time_body_accelerometer__std_x"  
+8 "time_body_accelerometer__std_y"  
+9 "time_body_accelerometer__std_z"  
+10 "time_gravity_accelerometer__mean_x"  
+11 "time_gravity_accelerometer__mean_y"  
+12 "time_gravity_accelerometer__mean_z"  
+13 "time_gravity_accelerometer__std_x"  
+14 "time_gravity_accelerometer__std_y"  
+15 "time_gravity_accelerometer__std_z"  
+16 "time_body_accelerometer_jerk_mean_x"  
+17 "time_body_accelerometer_jerk_mean_y"  
+18 "time_body_accelerometer_jerk_mean_z"  
+19 "time_body_accelerometer_jerk_std_x"  
+20 "time_body_accelerometer_jerk_std_y"  
+21 "time_body_accelerometer_jerk_std_z"  
+22 "time_body_gyroscope__mean_x"  
+23 "time_body_gyroscope__mean_y"  
+24 "time_body_gyroscope__mean_z"  
+25 "time_body_gyroscope__std_x"  
+26 "time_body_gyroscope__std_y"  
+27 "time_body_gyroscope__std_z"  
+28 "time_body_gyroscope_jerk_mean_x"  
+29 "time_body_gyroscope_jerk_mean_y"  
+30 "time_body_gyroscope_jerk_mean_z"  
+31 "time_body_gyroscope_jerk_std_x"  
+32 "time_body_gyroscope_jerk_std_y"  
+33 "time_body_gyroscope_jerk_std_z"  
+34 "time_body_accelerometer__magnitude_mean"  
+35 "time_body_accelerometer__magnitude_std"  
+36 "time_gravity_accelerometer__magnitude_mean"  
+37 "time_gravity_accelerometer__magnitude_std"  
+38 "time_body_accelerometer_jerk_magnitude_mean"  
+39 "time_body_accelerometer_jerk_magnitude_std"  
+40 "time_body_gyroscope__magnitude_mean"  
+41 "time_body_gyroscope__magnitude_std"  
+42 "time_body_gyroscope_jerk_magnitude_mean"  
+43 "time_body_gyroscope_jerk_magnitude_std"  
+44 "freq_body_accelerometer__mean_x"  
+45 "freq_body_accelerometer__mean_y"  
+46 "freq_body_accelerometer__mean_z"  
+47 "freq_body_accelerometer__std_x"  
+48 "freq_body_accelerometer__std_y"  
+49 "freq_body_accelerometer__std_z"  
+50 "freq_body_accelerometer_jerk_mean_x"  
+51 "freq_body_accelerometer_jerk_mean_y"  
+52 "freq_body_accelerometer_jerk_mean_z"  
+53 "freq_body_accelerometer_jerk_std_x"  
+54 "freq_body_accelerometer_jerk_std_y"  
+55 "freq_body_accelerometer_jerk_std_z"  
+56 "freq_body_gyroscope__mean_x"  
+57 "freq_body_gyroscope__mean_y"  
+58 "freq_body_gyroscope__mean_z"  
+59 "freq_body_gyroscope__std_x"  
+60 "freq_body_gyroscope__std_y"  
+61 "freq_body_gyroscope__std_z"  
+62 "freq_body_accelerometer__magnitude_mean"  
+63 "freq_body_accelerometer__magnitude_std"  
+64 "freq_body_accelerometer_jerk_magnitude_mean"  
+65 "freq_body_accelerometer_jerk_magnitude_std"  
+66 "freq_body_gyroscope__magnitude_mean"  
+67 "freq_body_gyroscope__magnitude_std"  
+68 "freq_body_gyroscope_jerk_magnitude_mean"  
+69 "freq_body_gyroscope_jerk_magnitude_std"  
 
 
 
@@ -164,12 +164,12 @@ The following files are available for the train and test data. Their description
 
 ### Activity Labels 
 
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
+1 WALKING  
+2 WALKING_UPSTAIRS  
+3 WALKING_DOWNSTAIRS  
+4 SITTING  
+5 STANDING  
+6 LAYING  
 
 ### Features Info
 
@@ -182,51 +182,51 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+- tBodyAcc-XYZ  
+- tGravityAcc-XYZ  
+- tBodyAccJerk-XYZ  
+- tBodyGyro-XYZ  
+- tBodyGyroJerk-XYZ  
+- tBodyAccMag  
+- tGravityAccMag  
+- tBodyAccJerkMag  
+- tBodyGyroMag  
+- tBodyGyroJerkMag  
+- fBodyAcc-XYZ  
+- fBodyAccJerk-XYZ  
+- fBodyGyro-XYZ  
+- fBodyAccMag  
+- fBodyAccJerkMag  
+- fBodyGyroMag  
+- fBodyGyroJerkMag  
 
 The set of variables that were estimated from these signals are: 
 
-mean(): Mean value
-std(): Standard deviation
-mad(): Median absolute deviation 
-max(): Largest value in array
-min(): Smallest value in array
-sma(): Signal magnitude area
-energy(): Energy measure. Sum of the squares divided by the number of values. 
-iqr(): Interquartile range 
-entropy(): Signal entropy
-arCoeff(): Autorregresion coefficients with Burg order equal to 4
-correlation(): correlation coefficient between two signals
-maxInds(): index of the frequency component with largest magnitude
-meanFreq(): Weighted average of the frequency components to obtain a mean frequency
-skewness(): skewness of the frequency domain signal 
-kurtosis(): kurtosis of the frequency domain signal 
-bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
-angle(): Angle between to vectors.
+- mean(): Mean value  
+- std(): Standard deviation  
+- mad(): Median absolute deviation  
+- max(): Largest value in array  
+- min(): Smallest value in array   
+- sma(): Signal magnitude area  
+- energy(): Energy measure. Sum of the squares divided by the number of values.  
+- iqr(): Interquartile range  
+- entropy(): Signal entropy  
+- arCoeff(): Autorregresion coefficients with Burg order equal to 4  
+- correlation(): correlation coefficient between two signals  
+- maxInds(): index of the frequency component with largest magnitude  
+- meanFreq(): Weighted average of the frequency components to obtain a mean frequency  
+- skewness(): skewness of the frequency domain signal  
+- kurtosis(): kurtosis of the frequency domain signal  
+- bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.  
+- angle(): Angle between to vectors.  
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
-gravityMean
-tBodyAccMean
-tBodyAccJerkMean
-tBodyGyroMean
-tBodyGyroJerkMean
+- gravityMean  
+- tBodyAccMean  
+- tBodyAccJerkMean  
+- tBodyGyroMean  
+- tBodyGyroJerkMean  
 
 ### Feature List
 
