@@ -32,16 +32,16 @@ Feature names were adjusted to descriptive names as follows:
 
 Abbreviations:
 
-freq - Frequency 
-std - Standard Deviation
+freq - Frequency  
+std - Standard Deviation  
 
 Units: Features are normalized and bounded within [-1,1].
 
 ### Features list
 
-1 "subject_id" 
-2 "activity" 
-3 "dataset" 
+1 "subject_id"  
+2 "activity"  
+3 "dataset"  
 4 "time_body_accelerometer__mean_x" 
 5 "time_body_accelerometer__mean_y" 
 6 "time_body_accelerometer__mean_z" 
