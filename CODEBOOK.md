@@ -232,11 +232,9 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 ### Feature List
 
-	1 tBodyAcc-mean()-X  
+1 tBodyAcc-mean()-X  
 2 tBodyAcc-mean()-Y  
 3 tBodyAcc-mean()-Z  
-
-
 4 tBodyAcc-std()-X  
 5 tBodyAcc-std()-Y  
 6 tBodyAcc-std()-Z  
